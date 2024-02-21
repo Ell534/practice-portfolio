@@ -21,44 +21,164 @@
     </head>
     <body>
         <header>
-            <h1>EB</h1>
+            <h2>EB</h2>
             <nav>
-                <a>Github</a>
-                <a>LinkedIn</a>
+                <a class="darkerText" href="https://github.com/Ell534" target="_blank">Github</a>
+                <a class="darkerText" href="https://www.linkedin.com/in/elliot-b-063265247/" target="_blank">LinkedIn</a>
             </nav>
         </header>
         <main>
             <section>
-                <div>
+                <div class="nameContainer">
                     <h1>Elliot Blanchard</h1>
-                    <p>I write code and build projects</p>
+                    <p class="darkerText">I write code and build projects</p>
                 </div>
-                <div>
-                    <div>
-                        <img src="" alt="profile image" />
+                <div class="statsContainer">
+                    <div class="imgContainer">
+                        <img
+                            src="https://avatars.githubusercontent.com/u/118538163?v=4"
+                            alt="profile image"
+                        />
                     </div>
-                    <div>
+                    <div class="stats darkerText">
                         <div>
-                            <p></p>
+                            <div>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p>41 GitHub Repositories</p>
                         </div>
                         <div>
-                            <p></p>
+                            <div>
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                            <p>55 Contributions in 2024</p>
                         </div>
                         <div>
-                            <p></p>
+                            <div>
+                                <i class="fa-solid fa-arrow-trend-up"></i>
+                            </div>
+                            <p>273 contributions in the last year</p>
                         </div>
                     </div>
                 </div>
+                <h4>About Me:</h4>
+                <p class="aboutMe">
+                    Hi I'm Elliot, a junior software developer who is making a
+                    career change after leaving the Royal Navy where I was an
+                    Air Engineering Officer. I have always loved problem solving
+                    and decided to use this opportunity to learn a new skill and
+                    start a new career. I taught myself for a while before
+                    completing a software engineering bootcamp with Northcoders.
+                    I like to keep fit and active by running, cycling, mountain
+                    biking and occassionally climbing.
+                </p>
                 <div>
-                    <a>
+                    <a href="mailto:elliot94b@gmail.com" class="outreach darkerText">
+                        <i class="fa-solid fa-arrow-right"></i>
                         <p>Email me</p>
                     </a>
                 </div>
             </section>
-            <section>
-                <p>Latest projects</p>
-                <div>
-                    
+            <section class="projectsContainer">
+                <p class="darkerText headerText">Latest projects</p>
+                <div class="projectItem">
+                    <div>
+                        <p class="darkerText">Dec, 2023</p>
+                        <p>This is a go CLI program which uses the PokeAPI. It implements a 
+                            cache to store previously retrieved data from the API to 
+                            speed up performance.
+                        </p>
+                        <div class="linkContainer">
+                            <a
+                                target="_blank"
+                                href="https://github.com/Ell534/go-dexcli"
+                                class="linkItem"
+                            >
+                                <div>
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                                <p>GitHub</p>
+                            </a>
+                            <!-- <a target="_blank" href="" class="linkItem">
+                                <div>
+                                    <i class="fa-solid fa-bolt"></i>
+                                </div>
+                                <p>Live</p>
+                            </a> -->
+                        </div>
+                    </div>
+                    <div>
+                        <img
+                            src="/public/goPokedexCLI.png"
+                            alt="goPokedexCLI-img"
+                        />
+                    </div>
+                </div>
+                <div class="projectItem">
+                    <div>
+                        <p class="darkerText">Aug, 2023</p>
+                        <p>This is a maze solving python program which draws a maze
+                            using the TKinter library and then runs an algorithm to draw a line and solve the maze.
+                        </p>
+                        <div class="linkContainer">
+                            <a
+                                target="_blank"
+                                href="https://github.com/Ell534/mazeSolver"
+                                class="linkItem"
+                            >
+                                <div>
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                                <p>GitHub</p>
+                            </a>
+                            <!-- <a target="_blank" href="" class="linkItem">
+                                <div>
+                                    <i class="fa-solid fa-bolt"></i>
+                                </div>
+                                <p>Live</p>
+                            </a> -->
+                        </div>
+                    </div>
+                    <div>
+                        <img
+                            src="/public/mazeSolver.png"
+                            alt="portfolio-img"
+                        />
+                    </div>
+                </div>
+                <div class="projectItem">
+                    <div>
+                        <p class="darkerText">Apr, 2023</p>
+                        <p>
+                            This is my final project from the Northcoders Bootcamp. It is a budgeting app
+                            written in JavaScript using React Native and Express with MongoDB providing the 
+                            database.
+                        </p>
+                        <div class="linkContainer">
+                            <a
+                                target="_blank"
+                                href="https://github.com/Ell534/team-mean-fe"
+                                class="linkItem"
+                            >
+                                <div>
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                                <p>GitHub</p>
+                            </a>
+                            <!-- <a target="_blank" href="" class="linkItem">
+                                <div>
+                                    <i class="fa-solid fa-bolt"></i>
+                                </div>
+                                <p>Live</p>
+                            </a> -->
+                        </div>
+                    </div>
+                    <div>
+                        <img
+                            src="/public/budgetBuddiesNC.png"
+                            alt="budgetBuddiesNC-img"
+                        />
+                    </div>
                 </div>
             </section>
         </main>
